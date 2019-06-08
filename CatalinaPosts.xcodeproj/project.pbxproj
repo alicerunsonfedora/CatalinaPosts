@@ -13,6 +13,9 @@
 		BF6413C622AB377500596A36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF6413C522AB377500596A36 /* Assets.xcassets */; };
 		BF6413C922AB377500596A36 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF6413C822AB377500596A36 /* Preview Assets.xcassets */; };
 		BF6413CC22AB377500596A36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF6413CA22AB377500596A36 /* LaunchScreen.storyboard */; };
+		BF6413D522AB381900596A36 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6413D422AB381900596A36 /* Post.swift */; };
+		BF6413D822AB39B700596A36 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6413D722AB39B700596A36 /* PostCell.swift */; };
+		BF6413DA22AB3EE900596A36 /* PostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6413D922AB3EE900596A36 /* PostView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		BF6413C822AB377500596A36 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BF6413CB22AB377500596A36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF6413CD22AB377500596A36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF6413D422AB381900596A36 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		BF6413D722AB39B700596A36 /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		BF6413D922AB3EE900596A36 /* PostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +62,10 @@
 		BF6413BE22AB377200596A36 /* CatalinaPosts */ = {
 			isa = PBXGroup;
 			children = (
+				BF6413D622AB39A600596A36 /* Views */,
+				BF6413D322AB37F600596A36 /* IdentifiableStructures */,
 				BF6413BF22AB377200596A36 /* AppDelegate.swift */,
 				BF6413C122AB377200596A36 /* SceneDelegate.swift */,
-				BF6413C322AB377200596A36 /* ContentView.swift */,
 				BF6413C522AB377500596A36 /* Assets.xcassets */,
 				BF6413CA22AB377500596A36 /* LaunchScreen.storyboard */,
 				BF6413CD22AB377500596A36 /* Info.plist */,
@@ -73,6 +80,24 @@
 				BF6413C822AB377500596A36 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BF6413D322AB37F600596A36 /* IdentifiableStructures */ = {
+			isa = PBXGroup;
+			children = (
+				BF6413D422AB381900596A36 /* Post.swift */,
+			);
+			path = IdentifiableStructures;
+			sourceTree = "<group>";
+		};
+		BF6413D622AB39A600596A36 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BF6413C322AB377200596A36 /* ContentView.swift */,
+				BF6413D722AB39B700596A36 /* PostCell.swift */,
+				BF6413D922AB3EE900596A36 /* PostView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,6 +174,9 @@
 				BF6413C022AB377200596A36 /* AppDelegate.swift in Sources */,
 				BF6413C222AB377200596A36 /* SceneDelegate.swift in Sources */,
 				BF6413C422AB377200596A36 /* ContentView.swift in Sources */,
+				BF6413D522AB381900596A36 /* Post.swift in Sources */,
+				BF6413DA22AB3EE900596A36 /* PostView.swift in Sources */,
+				BF6413D822AB39B700596A36 /* PostCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
